@@ -1,4 +1,3 @@
-# ['ip_addr':'103.18.133.34', 'port':'21776', 'code':'ID', 'country':'Indonesia', 'anon_level':'elite proxy', 'google':'no', 'https':'no'] `
 from time import sleep
 from subprocess import check_output
 from random import randint, choice
@@ -13,7 +12,7 @@ def get_ip():
     current_ip = check_output('hostname -I',shell=True).decode('utf-8')
     return current_ip
 
-url = 'http://10.5.123.94'
+url = ''
 i = 0
 log_it('______  new __________')
 while True:
